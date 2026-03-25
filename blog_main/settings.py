@@ -1,3 +1,4 @@
+
 """
 Django settings for blog_main project.
 
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rn2wb9pq_mf(r_4m$!$#&7*8%r(-nmrl#i+sb&*jmnom*uo^-_'
+SECRET_KEY = 'django-insecure-oph)7irc)r-p&qe*_y86&=*1l@$zbz&5zz_h#ob_r859@n-u^b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -117,6 +118,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
